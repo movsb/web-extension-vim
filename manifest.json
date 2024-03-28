@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Vim",
+  "version": "0.0.0",
+
+  "description": "Minimal Vim emulation.",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["vim.js"]
+    }
+  ]
+}
+
